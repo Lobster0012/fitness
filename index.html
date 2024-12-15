@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITHUB</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./framework/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./framework/jQuery/jquery-3.7.1.js"></script>
+    <script src="./framework/jQuery/jquery.mask.min.js"></script>
+</head>
+<body>
+<header>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./image/Group%207.svg" alt="" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cards">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#programs">Программы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Тарифы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Где нас найти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#start" role="button">Начать заниматься</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <a id="btn-up" href="#banner"><img src="./image/circle-arrow-up%201.svg" alt="up"></a>
+    <a id="btn-tg" href="https://web.telegram.org/a/"><img src="./image/Vector.svg" alt="tg"></a>
+    <section id="banner" class="d-flex flex-column justify-content-center align-items-center text-center">
+        <video autoplay muted loop class="bg-video">
+            <source src="./video/video5395339764071164022.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        <div id="bannerAllText" class="container">
+            <h1 class="text-white fw-bold">Добро пожаловать в фитнес-клуб FITHUB</h1>
+            <p id="bannerText" class="text-white fs-4">Наша концепция — спорт в удовольствие!</p>
+        </div>
+    </section>
+    
+    <section id="cards" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-white">
+                        <div class="card-body text-center">
+                            <img id="infoCard1" src="./image/clock.svg" alt="Современные тренажеры">
+                            <h5 class="card-title mt-3">Современные тренажеры</h5>
+                            <p class="card-text">Новейшее оборудование для эффективных тренировок</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-white">
+                        <div class="card-body text-center">
+                            <img id="infoCard2" src="./image/users.svg" alt="Опытные инструкторы">
+                            <h5 class="card-title mt-3">Опытные инструкторы</h5>
+                            <p class="card-text">Профессиональные тренеры с богатым опытом</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-white">
+                        <div class="card-body text-center">
+                            <img id="infoCard3" src="./image/map-pin.svg" alt="Удобное расположение">
+                            <h5 class="card-title mt-3">Удобное расположение</h5>
+                            <p class="card-text">В центре города с хорошей транспортной доступностью</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-white">
+                        <div class="card-body text-center">
+                            <img id="infoCard4" src="./image/dumbbell.svg" alt="ютная атмосфера">
+                            <h5 class="card-title mt-3">Уютная атмосфера</h5>
+                            <p class="card-text">Комфортные условия для тренировок</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="programs" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Программы</h2>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-center box">
+                        <div class="card-body">
+                            <img id="programsCard1" src="./image/user.svg" alt="icon">
+                            <h5 class="card-title mt-3">Персональные тренировки</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-center box">
+                        <div class="card-body">
+                            <img id="programsCard2" src="./image/users.svg" alt="icon">
+                            <h5 class="card-title mt-3">Групповые занятия</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-center box">
+                        <div class="card-body">
+                            <img id="programsCard3" src="./image/flame.svg" alt="icon">
+                            <h5 class="card-title mt-3">Высокоинтенсивный тренинг</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="card text-center box">
+                        <div class="card-body">
+                            <img id="programsCard4" src="./image/heart.svg" alt="icon">
+                            <h5 class="card-title mt-3">Йога и пилатес</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 text-white">Тарифы</h2>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div id="pricingCard1" class="card text-center">
+                        <div class="card-body text-white">
+                            <h5 class="card-title mt-3">Дневной полгода</h5>
+                            <h6>5000 ₽</h6>
+                            <p class="card-text">Посещение до 17:00 Групповые занятия Сауна Персональная консультация тренера</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div id="pricingCard2"  class="card text-center">
+                        <div class="card-body text-white">
+                            <h5 class="card-title mt-3">Дневной годовой</h5>
+                            <h6>7000 ₽</h6>
+                            <p class="card-text">Посещение до 17:00 Групповые занятия Сауна Персональная консультация тренера</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div id="pricingCard3" class="card text-center">
+                        <div class="card-body text-white">
+                            <h5 class="card-title mt-3">Безлимит полгода</h5>
+                            <h6>9000 ₽</h6>
+                            <p class="card-text">Свободное посещение Групповые занятия Сауна Персональная консультация тренера</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div id="pricingCard4" class="card text-center">
+                        <div class="card-body text-white">
+                            <h5 class="card-title mt-3">Безлимит годовой</h5>
+                            <h6>13000 ₽</h6>
+                            <p class="card-text">Свободное посещение Групповые занятия Сауна Персональная консультация</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="start" class="py-5 bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2 class="text-center mb-5">Начать заниматься</h2>
+                    <form method="GET" novalidate>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="+7 (XXX) XXX-XX-XX" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Введите свою почту" required>
+                        </div>
+                        <button type="button" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#notificationModal">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="notificationModal" tabindex="-1" aria-labelledby="notificationModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="notificationModalLabel">Спасибо за вашу заявку!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Спасибо за то, что выбрали нас! Ваша заявка успешно отправлена, и наш менеджер свяжется с вами в ближайшее время. Мы с нетерпением ждем возможности помочь вам!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="location" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-5">
+                    <h2 class="text-center mb-5 text-white">Где нас найти</h2>
+                    <div class="map-wrapper" style="position: relative; overflow: hidden;">
+                        <a href="https://yandex.ru/maps/66/omsk/?utm_medium=mapframe&utm_source=maps" style="color: #eee; font-size: 12px; position: absolute; top: 0px;">Омск</a>
+                        <a href="https://yandex.ru/maps/66/omsk/house/transsibirskaya_ulitsa_28/Y0oYdQZmTUAGQFtufXV0dnRgYg==/inside/?from=mapframe&ll=73.316451%2C54.957837&tab=inside&utm_medium=mapframe&utm_source=maps&z=17" style="color: #eee; font-size: 12px; position: absolute; top: 14px;">Организации внутри: Омск, Транссибирская улица, 28 — Яндекс Карты</a>
+                        <iframe id="map-iframe" src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=73.316451%2C54.957837&mode=whatshere&tab=inside&whatshere%5Bpoint%5D=73.316451%2C54.957836&whatshere%5Bzoom%5D=17&z=17" allowfullscreen class="map-iframe"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row text-white">
+                        <div class="col-md-4 mb-3">
+                            <h5>Адрес</h5>
+                            <p>Транспортная улица, 28</p>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h5>Телефон</h5>
+                            <p>+7 (123) 456-78-90</p>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h5>Email</h5>
+                            <p>info@fithub.ru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">Отзывы наших клиентов</h2>
+            <div id="reviewSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center">
+                                <img src="./image/image%20(1)%201.png" alt="Анна Иванова" class="rounded-circle mb-3" width="150">
+                                <h5 class="mb-2 text-white">Анна Иванова</h5>
+                                <p class="mb-3">"Этот фитнес-клуб – настоящий находка! Отличное оборудование, тренеры всегда поддержат. Рекомендую всем!"</p>
+                                <p>25 Ноября 2024</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center">
+                                <img src="./image/b4fe4f8f-0210-4971-a6e6-9de12e6da9db%201.png" alt="Client Photo" class="rounded-circle mb-3" width="150" height="150">
+                                <h5 class="mb-2 text-white">Дмитрий Смирнов</h5>
+                                <p class="mb-3">"Очень доволен посещением! Персонал вежливый, а оборудование на высшем уровне. Это лучший клуб в городе!"</p>
+                                <p>18 Ноября 2024</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center">
+                                <img src="./image/image%206%20(1).png" alt="Client Photo" class="rounded-circle mb-3" width="150" height="150">
+                                <h5 class="mb-2 text-white">Екатерина Ларина</h5>
+                                <p class="mb-3">"Занимаюсь здесь уже несколько месяцев. Клуб удобный, всегда чисто, атмосфера очень приятная. Рада, что выбрала именно этот!"</p>
+                                <p>12 Ноября 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+    </section>    
+</main>
+<footer id="footer" class="py-5">
+    <div class="container">
+        <div class="row text-white">
+            <div class="col-md-4 mb-3">
+                <h5>О нас</h5>
+                <p>Современный фитнес-клуб с профессиональным оборудованием и опытными тренерами</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Часы работы</h5>
+                <p>Пн-Пт: с 6:00 до 23:00</p>
+                <p>Сб-Вс: с 8:00 до 22:00</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Контакты</h5>
+                <p>Телефон: +7 (123) 456-78-90</p>
+                <p>Email: info@fithub.ru</p>
+                <a href="https://web.telegram.org/a/"><img src="./image/telegram-outline-svgrepo-com.svg" alt=""></a>
+                <a href="https://vk.com/video-127960182_456239022"><img src="./image/icons8-vk.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="text-center text-white mt-4">
+            <p>© 2024 FITHUB. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+    <script src="./framework/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Инициализируем маску
+            $('#phone').mask('+7 (999) 999-99-99');
+            
+            // При фокусе добавляем "+7", если поле пустое
+            $('#phone').on('focus', function () {
+                if (!$(this).val()) {
+                    $(this).val('+7 (');
+                }
+            });
+    
+            // Убираем "+7", если пользователь ничего не ввел
+            $('#phone').on('blur', function () {
+                if ($(this).val() === '+7 (') {
+                    $(this).val('');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

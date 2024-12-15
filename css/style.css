@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+body {
+    background-color: black;
+    font-family: "OpenSans";
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0, 80%) !important;
+}
+
+#navbar .navbar-brand img {
+    max-width: 120px;
+    height: auto;
+}
+
+#btn-up, #btn-tg {
+    z-index: 1; 
+    position: fixed; 
+    right: 20px;
+}
+
+#btn-up {
+    bottom: 90px; 
+}
+
+#btn-tg {
+    bottom: 30px; 
+}
+
+#btn-up img, #btn-tg img {
+    width: 50px;
+}
+
+#banner {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#bannerAllText {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#banner h1 {
+    font-size: 5vh !important;
+    margin-bottom: 2vh !important;
+}
+
+#bannerText {
+    font-size: 2vh !important;
+}
+
+#cards .card {
+    background-color: rgb(33, 37, 41);
+}
+
+#infoCard1, #infoCard2, #infoCard3, #infoCard4 {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+}
+
+#programs {
+    background-color: white;
+}
+
+#programs .card {
+    height: 150px;
+}
+
+#programsCard1, #programsCard2, #programsCard3, #programsCard4 {
+    width: 40px;
+    height: 40px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+#programs .card {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+#pricing .card{
+    height: 100%;
+}
+
+#pricingCard1, #pricingCard2, #pricingCard3, #pricingCard4 {
+    background-color: rgb(33, 37, 41);
+}
+
+#pricingCard1, #pricingCard2, #pricingCard3, #pricingCard4 {
+    margin-top: 1rem;
+}
+
+#pricingCard1, #pricingCard2, #pricingCard3, #pricingCard4 {
+    margin-top: 0.5rem;
+}
+
+#start {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.form-control {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.form-control::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.form-control:focus {
+    background-color: rgb(220, 220, 220);
+    border-color: black;
+    box-shadow: none;
+}
+
+#location iframe {
+    
+    border-radius: 5px;
+    transition: border-radius 0.3s ease;
+}
+
+#map-iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.map-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#location .row.text-white h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#location .row.text-white p {
+    font-size: 1rem;
+}
+
+#reviews img {
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#reviews h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#reviews p {
+    font-size: 1rem;
+    color: #666;
+}
+
+#reviews .carousel-inner {
+    padding: 30px 0;
+}
+
+#reviews .carousel-item {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#footer {
+    background-color: #212529;
+}
+
+#footer h5 {
+    font-weight: bold;
+}
+
+#footer p {
+    font-size: 1.4vh;
+}
+
+#footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .col-md-4 {
+    padding: 15px;
+}
+
+#footer .text-center {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+#footer a img {
+    width: 30px; 
+    filter: invert(1);
+}
+
+#cards .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+#cards .col-md-3 {
+    display: flex;
+    justify-content: stretch;
+}
+
+#cards .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#cards .card-body {
+    flex-grow: 1;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .map-wrapper iframe {
+        height: 250px;
+    }
+
+    #banner h1 {
+        font-size: 6vh;
+    }
+
+    #bannerText {
+        font-size: 3vh !important;
+    }
+
+    #footer p {
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
